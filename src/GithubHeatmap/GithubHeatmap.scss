@@ -27,8 +27,10 @@
 .github-heatmap-box{
     width: 1000px;
     height: 230px;
-    border: 1px solid #e1e4e8;
+    border: 1px solid #d1d5da;
     display: inline-block;
+    border-radius: 4px;
+
     vertical-align:center;
     .github-months-box{
         margin-bottom: 10px;
@@ -123,7 +125,7 @@
         text-align: center;
         vertical-align: middle;
         &:hover{
-            background-color: #cfcfcf;
+            background-color: #e8e8e8;
         }
         .year-label{
             position: relative;
